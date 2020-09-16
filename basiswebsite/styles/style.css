@@ -1,0 +1,236 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+html{
+font-family: "Helvetica Neue",Helvetica,"Nimbus Sans",Arial,sans-serif;
+
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  height: 10%;
+  background: #2E2E2C;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headercontainer{
+  display: flex;
+  padding: .3em;
+}
+
+#searchbar{
+  flex-grow: 100;
+  display: flex;
+  flex-direction: row;
+  background: white;
+    padding: .5em;
+}
+
+#searchbar input{
+  width: 100%;
+  border: none;
+  outline: none;
+
+}
+
+#loep{
+  height: 2em;
+
+}
+
+#burgerstyle{
+  height: 2em;
+}
+
+#hamburgerbutton{
+  border: none;
+  background: inherit;
+
+}
+
+#uitklapcontainer{
+  height: 5em;
+  background-color: red;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+
+}
+
+#uitklapcontainer.visible{
+  display: block;
+
+}
+
+.horizontalcenter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+section:first-of-type{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grijs{
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.grijs2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.grijs3{
+  width: 75%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+
+}
+
+h1:first-of-type{
+  color: white;
+  margin: 0 0 12px;
+  max-width: none;
+  font-size: 100%;
+  line-height: 42px;
+}
+
+a:first-of-type{
+  width:10%;
+  height: 15em;
+}
+
+section:nth-of-type(2){
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section:nth-of-type(3){
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section:nth-of-type(4){
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: black;
+
+}
+
+section:nth-of-type(4) h2 {
+width: 100%;
+justify-content: center;
+text-align: center;
+color: white;
+}
+
+section:nth-of-type(5){
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: white;
+  justify-content: center;
+
+}
+
+section:nth-of-type(5) h2{
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+section:nth-of-type(5) h1{
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+section:nth-of-type(5) img{
+  width: 75%;
+}
+
+
+footer button{
+    width: 33%;
+    background-color: grey;
+    border: none;
+    height: 100%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3em;
+  background: grey;
+}
+
+
+.discog{
+  width: 70%;
+  height: 250%;
+}
+
+
+.coverdiv {
+  width: 50%;
+  flex-basis: 50%;
+  justify-content: center;
+
+}
+
+.coverdiv h3{
+  text-align: center;
+  color: white;
+}
+
+
+.coverdiv img{
+  width: 50%;
+  height: 50%;
+}
