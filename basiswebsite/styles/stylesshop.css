@@ -1,0 +1,184 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+html{
+font-family: "Helvetica Neue",Helvetica,"Nimbus Sans",Arial,sans-serif;
+
+}
+
+body{
+  margin: 0;
+}
+
+
+
+/*MOBILE PAGE */
+/*MOBILE PAGE */
+/*MOBILE PAGE */
+/* HEADER GEBIED */
+  header{
+    width: 100%;
+    height: 10%;
+    background: #2E2E2C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .discog{
+    width: 70%;
+    height: 250%;
+  }
+
+  .headercontainer{
+    display: flex;
+    padding: .3em;
+  }
+
+  .searchbar{
+    flex-grow: 100;
+    display: flex;
+    flex-direction: row;
+    background: white;
+      padding: .5em;
+  }
+
+  .searchbar2{
+    flex-grow: 100;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: .5em;
+    border: 1px solid black;
+  }
+
+  .searchbar input, .searchbar2 input{
+    width: 100%;
+    border: none;
+    outline: none;
+
+  }
+
+  .loep{
+    height: 2em;
+
+  }
+
+  #burgerstyle{
+    height: 2em;
+
+  }
+
+  #hamburgerbutton{
+    border: none;
+    background: inherit;
+
+  }
+
+  #uitklapcontainer{
+    height: 5em;
+    background-color: red;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+
+  }
+
+  #uitklapcontainer.visible{
+    display: block;
+
+  }
+
+  .horizontalcenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  #headerwrappershop{
+    max-width: 100vw;
+    overflow-x: scroll;
+
+  }
+  #shopul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+  }
+  .shopli{
+    padding: 0 1em;
+
+  }
+
+  #labelwrap{
+    padding: 1em;
+  }
+  #sorting{
+    width: 60%;
+    padding: 0.2em;
+  }
+
+
+  /* CONTENT GEBIED */
+    .contentwrapper{
+      width: auto;
+      margin: 0;
+    }
+
+    .product{
+      display: flex;
+    }
+
+
+  .fotowrap img{
+    width: 100%;
+
+  }
+
+  .fotowrap{
+    width: 20%;
+
+  }
+
+  .textwrap{
+    width: 80%;
+  }
+
+.grijstekst{
+  color: grey;
+}
+
+.fototekst{
+  text-align: center;
+  font-weight: bold;
+}
+
+.bijtekst{
+  display: none;
+
+}
+
+.bijtekst.visible{
+  display: inline;
+}
+
+  /* FOOTER GEBIED */
+
+
+  footer button{
+      width: 33%;
+      background-color: grey;
+      border: none;
+      height: 100%;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    background: grey;
+  }

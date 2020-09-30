@@ -30,7 +30,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Het werken naar responsive vond ik vervelend gaan met hoe ik mijn html gedaan had. Ik ga hier later even naar kijken voor mezelf.
+Voor nu ben ik naar surface plane gedaan. Verder ging het goed om mijn extra pagina te maken. Javascript gebruiken was weer even wennen
+maar verliep mij goed af. Ik moet mijn 2e pagina nog even vormgeven en dan kan ik beginnen aan mijn laatste pagina.
 
 
 
@@ -45,7 +47,11 @@ wel het alternatief gemaakt zonder animatie.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang4.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang5.png)
 
 ### Agenda voor meeting
 
@@ -61,7 +67,7 @@ wel het alternatief gemaakt zonder animatie.
 
 **Je startniveau:** Rood
 
-**Je focus:** Responsive
+**Je focus:** Surface Plane
 
 **Je opdracht:** https://www.discogs.com/
 

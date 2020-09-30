@@ -2,6 +2,19 @@
 var hamburgerB = document.getElementById('hamburgerbutton');
 var uitklapC = document.getElementById('uitklapcontainer');
 var toggled = false;
+var articles = document.getElementsByClassName('articlecontainer');
+
+
+for (var i = 0; i < articles.length; i++) {
+  var article = articles[i];
+  var button = article.querySelector(".meerlezenknop");
+  var tekst = article.querySelector(".bijtekst");
+
+  button.addEventListener('click', function (){
+      tekst.classList.toggle("visible");
+
+  });
+}
 
 
 
