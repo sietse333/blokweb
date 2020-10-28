@@ -1,23 +1,48 @@
 // JavaScript Document
 var hamburgerB = document.getElementById('hamburgerbutton');
-var uitklapC = document.getElementById('uitklapcontainer');
-var toggled = false;
+var filterB = document.getElementById('filterknop');
+//var uitklapC = document.getElementById('uitklapcontainer');
 var articles = document.getElementsByClassName('articlecontainer');
+var toggled = false;
 
+function toggleuitklap() {
+  document.querySelector('#uitklapcontainer').classList.toggle('uitklapaan');
+
+}
+
+function toggleuitklap2() {
+  document.querySelector('#uitklapcontainer2').classList.toggle('uitklapaan2');
+
+}
+
+
+hamburgerB.addEventListener('click', toggleuitklap);
+
+filterB.addEventListener('click', toggleuitklap2);
+
+
+
+
+
+
+//DEZE CODE HEB IK NIET ZELF GEMAAKT credits to Sander
 
 for (var i = 0; i < articles.length; i++) {
   var article = articles[i];
   var button = article.querySelector(".meerlezenknop");
   var tekst = article.querySelector(".bijtekst");
 
-  button.addEventListener('click', function (){
-      tekst.classList.toggle("visible");
+  button.addEventListener('click', function() {
+    tekst.classList.toggle("visible");
 
   });
 }
 
 
 
+// Oude code voor uitklap menu niet zelf geschreven credits to Sander
+
+/*
 function toggleuitklap() {
 
   if (toggled) {
@@ -50,13 +75,4 @@ function toggleuitklap() {
   }
   toggled = !toggled
 }
-
-
-
-
-hamburgerB.addEventListener('click', toggleuitklap);
-
-
-
-
-//uitklapC.classList.toggle("visible");
+*/

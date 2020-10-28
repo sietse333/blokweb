@@ -12,108 +12,186 @@
 </head>
 
 <body>
-
+  <!-- Header van de website -->
   <header>
-    <div class="headercontainer">
-      <div class="searchbar">
+    <!-- searchbalk in de nav -->
+    <section class="headercontainer">
+      <span id="searchbar">
         <input type="text" placeholder="Search Discogs" />
-        <img class="loep" src="images/search.svg" />
-      </div>
+      </span>
       <button id="hamburgerbutton"><img id="burgerstyle" src="images/burger.svg" alt="burgerlol" /></button>
-    </div>
-
-    <div id="uitklapcontainer">
-
-      <h1>content hier</h1>
-
-    </div>
-    <div class="horizontalcenter">
-      <img class="discog" src="images/logo.jpg" alt="Discogs" />
-    </div>
+    </section>
+    <!-- Hier is het menu dat uitklapt als je op de hamburger icon klikt -->
+    <nav id="uitklapcontainer" class="uitklapuit">
+      <ul>
+        <li class="bovenrij">
+          <a>Winkel</a>
+        </li>
+        <li class="bovenrij">
+          <a>Login</a>
+        </li>
+        <li class="bovenrij">
+          <a>Register</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="onderrij">
+          <a href="index.html">Explore</a>
+        </li>
+        <li class="onderrij">
+          <a href="shop.html">Marketplace</a>
+        </li>
+        <li class="onderrij">
+          <a>Comunity</a>
+        </li>
+      </ul>
+    </nav>
   </header>
+  <!-- Hier begint de main -->
+  <main>
+    <!-- Hier staan wat link met white space nowarp en overflow-x:scroll  zodat je kan swipen  -->
+    <section id="headerwrappershop">
+      <ul id="shopul">
+        <li class="shopli">
+          <a>All items</a>
+        </li>
+        <li class="shopli">
+          <a>Items i want</a>
+        </li>
+        <li class="shopli">
+          <a>Purchases</a>
+        </li>
+        <li class="shopli">
+          <a>Cart</a>
+        </li>
+        <li class="shopli">
+          <a>Buyer Settings</a>
+        </li>
+        <li class="shopli">
+          <a>Settings</a>
+        </li>
+      </ul>
+    </section>
+    <!-- Hier is nog een searchbar met een filter knop -->
+    <section class="searchbalkcontainer">
+      <button id="filterknop">+ Filter</button>
+      <span id="searchbar2">
+        <input type="text" placeholder="Search Marketplace" />
+      </span>
+    </section>
+    <!-- Dit is het uitklap menu van de filter knop -->
+    <nav id="uitklapcontainer2" class="uitklapuit2">
+      <ul id="zijmenu">
+        <li>
+          <h3>Currency</h3>
+        </li>
+        <li>
+          <a>EUR (€)</a>
+        </li>
+        <li>
+          <a>USD ($)</a>
+        </li>
+        <li>
+          <a>GBP (£)</a>
+        </li>
+        <li>
+          <a>CHF (CHF)</a>
+        </li>
+        <li>
+          <a>AUD (A$)</a>
+        </li>
+      </ul>
+    </nav>
 
-  <div id="headerwrappershop">
-    <ul id="shopul">
-      <li class="shopli">
-        testtest
-      </li>
-      <li class="shopli">
-        testtest
-      </li>
-      <li class="shopli">
-        testtest
-      </li>
-      <li class="shopli">
-        testtest
-      </li>
-      <li class="shopli">
-        testtest
-      </li>
-    </ul>
-  </div>
+    <h1>Shop Vinyl Records, CDs, and More</h1>
+    <!-- Gewoon een dropdown menutje -->
+    <section id="labelwrap">
+      <label for="sorting" id="dropdownlabel">sort</label>
+      <select id="sorting">
+        <option class="dropdownoption">
+          Listed newest
+        </option>
+        <option class="dropdownoption">
+          Listed oldest
+        </option>
+        <option class="dropdownoption">
+          Listed (A-Z)
+        </option>
+        <option class="dropdownoption">
+          Listed (Z-A)
+        </option>
+      </select>
+    </section>
+    <!-- Hier is een compleet item.  Ik maak gebruik van spans met classes om bepaalde punten in een zin een andere kleur te geven. -->
+    <section class="contentwrapper">
+      <article class="articlecontainer">
+        <article class="product">
+          <span class="fotowrap">
+            <img src="images/cover2.jpg" />
+            <p><span class="roodtekst">€17,50</span></p>
+            <p><span class="grijstekst">€17,50</span></p>
+          </span>
+          <span class="textwrap">
+            <p> <span class="blauwtekst"> Bladee- Icedancer (Cd Album)</span></p>
+            <p> <span class="grijstekst">Media:</span>Very good </p>
+            <p> <span class="grijstekst">Sleeve:</span> Very good</p>
+            <p> <span class="grijstekst">Seller:</span><span class="blauwtekst">Year1001</span></p>
+            <p> <span class="grijstekst">Ships From:</span> Sweden</p>
+            <p> <span class="grijstekst">Comments:</span> Record has a few scratch marks en it skips<span class="bijtekst"> a couple of times</span><button class="meerlezenknop">...</button></p>
+          </span>
+        </article>
+      </article>
 
-  <div class="horizontalcenter">
-    <button>Knop</button>
-    <div class="searchbar2">
-      <input type="text" placeholder="Search Discogs" />
-      <img class="loep" src="images/search.svg" />
-    </div>
-  </div>
+      <article class="articlecontainer">
+        <article class="product">
+          <span class="fotowrap">
+            <img src="images/joji.jpg" />
+            <p><span class="roodtekst">€24.99</span></p>
+            <p><span class="grijstekst">€30.00</span></p>
+          </span>
+          <span class="textwrap">
+            <p> <span class="blauwtekst"> Joji- Nectar (Vinyl Album)</span></p>
+            <p> <span class="grijstekst">Media:</span>Very good </p>
+            <p> <span class="grijstekst">Sleeve:</span> Very good</p>
+            <p> <span class="grijstekst">Seller:</span><span class="blauwtekst">Extravaganza</span></p>
+            <p> <span class="grijstekst">Ships From:</span> United States</p>
+            <p> <span class="grijstekst">Comments:</span> Record is in good condition it has only<span class="bijtekst">been played a couple of times</span><button class="meerlezenknop">...</button></p>
+          </span>
+        </article>
+      </article>
 
-  <div id="labelwrap">
-    <label for="sorting" id="dropdownlabel">yoman</label>
-    <select id="sorting">
-      <option class="dropdownoption">
-        Listed newest
-      </option>
-      <option class="dropdownoption">
-        joe
-      </option>
-      <option class="dropdownoption">
-        joe
-      </option>
-      <option class="dropdownoption">
-        joe
-      </option>
-    </select>
-  </div>
+      <article class="articlecontainer">
+        <article class="product">
+          <span class="fotowrap">
+            <img src="images/deko.png" />
+            <p><span class="roodtekst">€19,99</span></p>
+            <p><span class="grijstekst">€19,99</span></p>
+          </span>
+          <span class="textwrap">
+            <p> <span class="blauwtekst"> Deko- Crystalline (Cd Album)</span></p>
+            <p> <span class="grijstekst">Media:</span>Very good </p>
+            <p> <span class="grijstekst">Sleeve:</span> Very good</p>
+            <p> <span class="grijstekst">Seller:</span><span class="blauwtekst">Escapist</span></p>
+            <p> <span class="grijstekst">Ships From:</span> United States</p>
+            <p> <span class="grijstekst">Comments:</span> Record has a few scratch marks en it skips<span class="bijtekst"> a couple of times</span><button class="meerlezenknop">...</button></p>
+          </span>
+        </article>
+      </article>
+      <!-- Een paar knoppen -->
+      <section class="knopscores">
+        <h2>1 - 25 of 58,045,239</h2>
+        <article class="knoppenwrapper">
+          <a>
+            < Prev </a>
+              <a> Next > </a>
+      </section>
+  </main>
 
-  <section class="contentwrapper">
-    <article class="horizontalcenter articlecontainer">
-      <div class="product">
-        <div class="fotowrap">
-          <img src="images/cover5.jpg" />
-          <div class="fototekst">2.50</div>
-          <div class="fototekst">2.50</div>
-          <div class="fototekst">2.50</div>
-        </div>
-        <div class="textwrap">
-          <div>Lost roberts- Help me</div>
-          <div>available none</div>
-          <div>Media: Near mint</div>
-          <div><span class="grijstekst">Sleeve:</span>Very good</div>
-          <div><span class="grijstekst">Sleeve:</span> Very good</div>
-          <div><span class="grijstekst">Sleeve:</span> Very good</div>
-
-          <div><span class="grijstekst">Comments:</span> Record has a few scratch marks en het suckt<span class="bijtekst"> moeilijk hard</span><button class="meerlezenknop">...</button></div>
-
-        </div>
-      </div>
-    </article>
-
-  </section>
-
-
-
-
-
-
-
-
+  <!-- Dit is de footer -->
   <footer>
-    <button type="button">English</button>
-    <button type="button">Desktop</button>
-    <button type="button">></button>
+    <a>English</a>
+    <a>Desktop</a>
+    <a>></a>
   </footer>
 
   <script src="scripts/script.js"></script>
